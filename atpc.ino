@@ -12,7 +12,7 @@ int sync = 0;                                     // 2 digital pins
 int wave = 1;
 
 unsigned int time1;                               // 1st oscillator
-unsigned int pulseWidth, pulseWidthTarget;        // 2 different pulse widths
+unsigned int pulseWidth, pulseWidthTarget;        // 2 pulse widths
 unsigned int duration;                            // Time to reach target pulse width
 
 unsigned int tick1, tick2, tick3;                 // Cycle counters
@@ -26,7 +26,7 @@ void setup() {
   pinMode(wave, OUTPUT);                          // PWM output pin
   pinMode(sync, INPUT);                           // Sync pin as input
 
-  // Setting up Timers as seen by
+  // For setting up Timers and learn much about ATtinys go for 
   // David Johnson-Davies blog: technoblogy.com
 
   // Enable 64 MHz PLL and use as source for Timer1
