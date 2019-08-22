@@ -1,4 +1,4 @@
 # ATtiny-Punk-Console
-Codes, docs and and schematics for the ATtiny Punk Console soldering kit. It's an easy to build synth based on the ATtiny85. Focus of development is on usability as a real instrument, learn and fun. More information and sounds at https://noisio.de/blog/attiny-punk-console. 
+Codes, documents and circuit diagrams for the soldering kit of the ATtiny Punk Console. It is an easy to build synth based on the ATtiny85. The focus of the development is on usability as a real instrument, learning and fun. More information and sounds at https://noisio.de/blog/attiny-punk-console. 
 
 ![3 ATPCs in sync](/docs/3ATPCs_linked.jpg)
